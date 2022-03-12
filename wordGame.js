@@ -4,13 +4,13 @@ window.addEventListener("load", init)
 
 //Available Levels
 const levels = {
-    easy: 10;
-    medium: 5;
-    hard: 2;
+    easy: 10,
+    medium: 5,
+    hard: 2,
 }
 
 // To change level 
-const currentLevel = levels.easy;
+const currentLevel = levels.medium;
 
 let time = currentLevel;
 let score = 0;
@@ -25,20 +25,20 @@ const message = document.querySelector("#message");
 const seconds = document.querySelector("#seconds");
 
 const words = [
-    "inuyasha",
-    "kagome",
-    "sesshomaru",
-    "naraku",
-    "miroku",
-    "kikyo",
-    "shippo",
-    "kohaku",
-    "jiraya",
-    "tsunade",
-    "rin",
-    "gaara",
-    "kakashi",
-    "itachi",
+    "postpartum",
+    "self care",
+    "grace",
+    "health",
+    "maternal",
+    "professional",
+    "care provider",
+    "care coordinator",
+    "resources",
+    "access",
+    "beautiful",
+    "exposure",
+    "behavior",
+    "weathering",
     "sasuke",
     "orochimaru",
     "rock lee",
@@ -48,6 +48,8 @@ const words = [
 // Initialize game
 function init() {
     console.log("init");
+    //Show number of seconds in UI
+    seconds.innerHTML = currentLevel;
     //load word from word array
     showWord(words);
     // Start matching on word input
@@ -61,7 +63,7 @@ function init() {
 function startMatch(){
     if(matchWords()){
         isPlaying = true;
-        time = ++currentLevel;
+        time = currentLevel + 1;
         showWord(words);
         wordInput.value = '';
         score++;
@@ -101,7 +103,7 @@ function countdown() {
 //Checking Game Status
 function checkStatus() {
     if(!isPlaying && time === 0){
-        message.innerHTML = "You lose. Loser. Just kidding. but you don't win.";
+        message.innerHTML = "Failure is not fatal- it is the courage to continue that counts. Try again!";
         score = 0;
     }
 }
