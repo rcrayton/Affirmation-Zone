@@ -1,0 +1,2 @@
+<h1>Welcome!</h1>
+<p>This Page is for YOU!<br> Pregnancy can be a rewarding but difficult journey. Sometime we all may need a pick me up. <br> Take part in our Affimation Zone to be reminded why you are here and why you matter.</p>
