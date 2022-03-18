@@ -1,2 +1,2 @@
 <h1>Welcome!</h1>
-<p>This Page is for YOU!<br> Pregnancy can be a rewarding but difficult journey. Sometime we all may need a pick me up. <br> Take part in our Affimation Zone to be reminded why you are here and why you matter.</p>
+<p>This Page is for YOU!<br> Pregnancy can be a rewarding but difficult journey. Sometime we all may need a pick me up. <br> Take part in our Affimation Zone to be reminded why you are here and why you matter.</p><img width="1258" alt="Screen Shot 2022-03-18 at 4 32 17 PM" src="https://user-images.githubusercontent.com/96804107/159080208-0159c6b0-bb86-44ec-af76-f4e2ea6a7cb9.png">
